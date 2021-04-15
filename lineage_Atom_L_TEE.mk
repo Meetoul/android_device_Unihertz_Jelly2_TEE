@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_Atom_L_TEE
-PRODUCT_DEVICE := Atom_L
+PRODUCT_DEVICE := Atom_L_TEE
 PRODUCT_BRAND := Unihertz
 PRODUCT_MODEL := Atom_L
 PRODUCT_MANUFACTURER := Unihertz
