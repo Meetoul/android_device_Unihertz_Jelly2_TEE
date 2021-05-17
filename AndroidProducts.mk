@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Atom_L_TEE.mk
+    $(LOCAL_DIR)/lineage_Jelly2_TEE.mk

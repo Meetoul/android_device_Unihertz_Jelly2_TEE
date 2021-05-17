@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
--include device/Unihertz/Atom_L/BoardConfigCommon.mk
+-include device/Unihertz/Jelly2/BoardConfigCommon.mk
 
-DEVICE_REGION_PATH := device/Unihertz/Atom_L_TEE
+DEVICE_REGION_PATH := device/Unihertz/Jelly2_TEE
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_REGION_PATH)/prebuilt/Image.gz
