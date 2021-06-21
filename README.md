@@ -1,12 +1,11 @@
-Device configuration for Unihertz Atom L (Atom_L) TEE (non-european union)
+Device configuration for Unihertz Jelly2 TEE (non-european union)
 =================================================
+
 This region device tree is intended for the usage in a LineageOS or similar building environment.
 
-If you are looking for a special device tree for the usage in a TWRP or similar environment head over to https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL.
+If you are looking for a special device tree for the usage in a TWRP or similar environment head over to https://github.com/Meetoul/twrp_device_Unihertz_Jelly2.
 
-The Unihertz Atom L (codenamed simply _"Atom_L"_) is a rugged small smartphone from Unihertz, released in July 2020. It is similar to the Atom XL but without an integrated digital mobile radio (DMR).
-
-![](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_L/blob/master/docs/images/atom_l.png)
+![](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2/blob/master/docs/images/jelly2.png)
 
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
@@ -16,32 +15,27 @@ The Unihertz Atom L (codenamed simply _"Atom_L"_) is a rugged small smartphone f
 | Memory                  | 6 GB RAM                                                                                                                       |
 | Shipped Android Version | 10                                                                                                                             |
 | Storage                 | 128 GB                                                                                                                         |
-| Battery                 | Non-removable Li-Po 4300 mAh battery                                                                                           |
-| Display                 | 1136 x 640 pixels, ~16:9 ratio (~300 ppi density)                                                                              |
-| Camera (Rear - Main)    | 48MP                                                                                                                           |
+| Battery                 | Non-removable Li-Po 2000 mAh battery                                                                                           |
+| Display                 | 480x854 pixels, 3.0 inch                                                                                                       |
+| Camera (Rear - Main)    | 16MP                                                                                                                           |
 | Camera (Front)          | 8MP                                                                                                                            |
 
 # Dependencies
 
 Additionally to this region device tree, you'll need the common device tree
 
-- [Atom LXL](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL)
-
-and the model device tree
-
-- [Atom L (model)](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_L)
+- [Jelly2](https://github.com/Meetoul/android_device_Unihertz_Jelly2)
 
 ## Documentations
 
-- [HOW-TO-BUILD.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for LineageOS 17.1.
-- [HOW-TO-INSTALL.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-INSTALL.md) - Installation instructions for the Atom L/XL.
-- [HOW-TO-UPDATE.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-UPDATE.md) - Update instructions for the Atom L/XL.
-- [HOW-TO-EXTRACT_FILES.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-EXTRACT_FILES.md) - Instructions to extract files directly from the Atom L/XL stock rom files.
-- [HOW-TO-EXTRACT_SEPOLICY.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-EXTRACT_SEPOLICY.md) - A little guide to extract sepolicy rules from stock or phone.
-- [HOW-TO-FLASH-STOCK.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-FLASH-STOCK.md) - Instructions on how to use the SP Flash Tool for MTK based devices.
-- [HOW-TO-FLASH-SUPER.md](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-FLASH-SUPER.md) - Instructions on how to modify super.img and flashing it onto the device.
+- [HOW-TO-BUILD.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for LineageOS 17.1.
+- [HOW-TO-INSTALL.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-INSTALL.md) - Installation instructions for the Jelly2.
+- [HOW-TO-UPDATE.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-UPDATE.md) - Update instructions for the Jelly2.
+- [HOW-TO-EXTRACT_FILES.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-EXTRACT_FILES.md) - Instructions to extract files directly from the Jelly2 stock rom files.
+- [HOW-TO-EXTRACT_SEPOLICY.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-EXTRACT_SEPOLICY.md) - A little guide to extract sepolicy rules from stock or phone.
+- [HOW-TO-FLASH-STOCK.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-FLASH-STOCK.md) - Instructions on how to use the SP Flash Tool for MTK based devices.
+- [HOW-TO-FLASH-SUPER.md](https://github.com/Meetoul/android_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-FLASH-SUPER.md) - Instructions on how to modify super.img and flashing it onto the device.
 
 ## Special Thanks To
 
-- [PeterCxy from the XDA forum](https://forum.xda-developers.com/member.php?u=5351691) for helping me and providing the device tree for Atom L.
-- [The device tree for the Atom L](https://cgit.typeblog.net/android/device/unihertz/Atom_L/) which was a great step-by-step guide to complete the Atom XL.
+- [ADeadTrousers](https://github.com/ADeadTrousers) - I used his [AtomL/XL device tree](https://github.com/ADeadTrousers/android_device_Unihertz_Atom_LXL) as a base for this one. Phones hardware are almost identical, so device trees are almost identical as well.
