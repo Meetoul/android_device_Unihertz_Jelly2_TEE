@@ -36,4 +36,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=Jelly2 \
     PRIVATE_BUILD_DESC="Jelly2-user 10 QP1A.190711.020 root.20210417.155922 release-keys"
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 PRODUCT_GMS_CLIENTID_BASE := android-unihertz
